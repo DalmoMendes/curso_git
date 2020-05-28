@@ -1,0 +1,47 @@
+0 - Baixar e instalar o Git for Windows, abrir o GitBash.
+
+1-criar diretório:
+mkdir nome_diretorio
+
+2-Abrir:
+cd nome_diretorio
+
+3-configurar usuário global: 
+git config --global user.name “Fulano de Tal”
+git config --global user.email “fulanodetal@gmail.com”
+
+4-Confirmar informações globais:
+git config --global –l
+
+5-Iniciar repositório:
+git init
+
+6-Criar Arquivo:
+touch.exe index.html
+
+7-Adicionar arquivo:
+git add index.html
+
+8-Verificar situação:
+git status
+
+9-Adicionar repositório remoto:
+git remote add origin https://github.com/FulanoDeTal/html_css.git
+
+10-Sincronizar:
+git pull origin master 
+
+11-Commitar arquivos ou diretórios:
+git commit -m "Meu primeiro arquivo no GitHub"
+
+12-Enviar para o GitHub Remoto: 1ª vez autenticar (-u).
+git push -u origin master
+
+E isso! marca um "Star"(Estrela) se gostou!!!
+
+
+
+
+
+
+
