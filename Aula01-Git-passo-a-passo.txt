@@ -39,6 +39,35 @@ git push -u origin master
 
 E isso! marca um "Star"(Estrela) se gostou!!!
 
+------------------------------------------------------------------------
+
+ENVIAR UM NOVA BRANCH PARA O GITHUB
+
+Minha sequência de comandos:
+
+1º PASSO: git checkout –b atividades
+2º PASSO: touch.exe conceitos_git_github.txt
+3º PASSO: git add conceitos_git_github.txt
+4º PASSO: git commit –m “Criando um arquivo de conceitos git e github”
+5º PASSO: git push origin atividades
+
+Confira no meu gitHub: https://github.com/DalmoMendes/curso_git
+
+------------------------------------------------------------------------
+
+ATUALIZANDO E ENVIANDO INFORMAÇÕES PARA UMA BRANCH NO GITHUB
+Abrir o arquivo que será atualizado, fazer as alterações, em seguida realizar os comandos abaixo:
+
+1º PASSO, verifique em qual branch você se localiza: git branch
+2º PASSO, caso não seja a atual, digite: git checkout nome_branch
+3º PASSO, verificar o status: git status
+4º PASSO, adicionar no arquivo vermelho com: git add nome_do_arquivo
+5º PASSO, comitar o arquivo: git commit –m “Atualizando informações de XXX”
+6º PASSO, dar um Push na origin correspondente: git push origin nome_da_branch
+
+Confira no meu gitHub: https://github.com/DalmoMendes/curso_git
+
+-------------------------------------------------------------------------
 
 
 
