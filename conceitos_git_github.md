@@ -1,22 +1,22 @@
-GUIA DE CONCEITOS DE GIT E GITHUB
+# GUIA DE CONCEITOS DE GIT E GITHUB
 Criado por Dalmo Silva Mendes
 
-Colaboradores: * Ao adicionar informações não se esquecer de indicar a fonte da consulta, informar a fonte é importante e da credibilidade para o projeto.
+**Colaboradores:** * Ao adicionar informações não se esquecer de indicar a fonte da consulta, informar a fonte é importante e da credibilidade para o projeto.
 
-Lista de Colaboradores:
+# Lista de Colaboradores:
+* Marcelo CFSF
 
-
-O que é Git?
+## O que é Git?
 
 Então, o que é o Git em poucas palavras? Esta é uma parte que é importante aprender, porque se você entender o que Git é e os fundamentos de como ele funciona, em seguida, provavelmente usar efetivamente o Git será muito mais fácil para você. Enquanto você estiver aprendendo sobre o Git, tente esquecer das coisas que você pode saber sobre outros VCSs, como Subversion e Perforce; isso vai ajudá-lo a evitar a confusão sutil ao usar a ferramenta. Git armazena e vê informações de forma muito diferente do que esses outros sistemas, mesmo que a interface do usuário seja bastante semelhante, e entender essas diferenças o ajudará a não ficar confuso. (Perforce). (Pro Git, Scott Chacon e Bem Straub, p. 12, 2020).
 
-O que é GitHub?
+## O que é GitHub?
 
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores. (https://pt.wikipedia.org/wiki/GitHub).
 
-TRABALHANDO COM BRANCH
+## TRABALHANDO COM BRANCH
 
-O que são Branching? 
+### O que são Branching? 
 
 Quase todo (VCS – Controle de Versão) tem algum tipo de suporte de ramificação. Ramificação significa que você diverge da linha principal de desenvolvimento e continue a trabalhar sem mexer com essa linha principal. Em muitos Ferramentas VCS, esse é um processo um pouco caro, geralmente exigindo que você crie uma nova cópia do seu diretório de código-fonte, que pode demorar muito para grandes projetos.
 
